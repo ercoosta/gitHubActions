@@ -34,12 +34,12 @@
           />
         </div>
         <div class="flex-grow p-3">
-          <div class="font-semibold text-gray-700">Edson Costa</div>
-          <div class="text-sm text-gray-500">@edsoncoosta</div>
+          <div class="font-semibold text-gray-700">Janaina Ribeiro</div>
+          <div class="text-sm text-gray-500">@janarsilva</div>
         </div>
         <div class="p-2">
           <span
-            class="block h-4 w-4 bg-red-400 rounded-full bottom-0 right-0"
+            class="block h-4 w-4 bg-green-400 rounded-full bottom-0 right-0"
           ></span>
         </div>
       </div>
