@@ -2,41 +2,39 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Deploy com GitHub Actions</title>
-  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet" />
 </head>
 
-<body class="bg-gray-800">
-  <div class="container mx-auto max-w-sm h-screen flex flex-col space-y-4 justify-center items-center ">
-    <div class="bg-white w-full flex items-center p-2 rounded-xl shadow border">
-      <div class="relative flex items-center space-x-4">
-        <img src="./60551398_2165399503750714_6938679714349318144_n.jpg" alt="Edson Costa" class="w-16 h-16 rounded-full" />
-      </div>
-      <div class="flex-grow p-3">
-        <div class="font-semibold text-gray-700">Janaina Ribeiro</div>
-        <div class="text-sm text-gray-500">@janarsilva</div>
-      </div>
-      <div class="p-2">
-        <span class="block h-4 w-4 bg-green-400 rounded-full bottom-0 right-0"></span>
-      </div>
+<body>
+    <!-- component -->
+    <div class="animate-pulse min-h-screen bg-slate-200 py-6 flex flex-col justify-center relative overflow-hidden sm:py-12">
+        <span class="border text-4xl text-yellow-800 px-6 pt-10 pb-8 bg-white w-1/2 max-w-md mx-auto rounded-t-md sm:px-10">Sign in Form</span>
+        <div class="border relative px-4 pt-7 pb-8 bg-white shadow-xl w-1/2 max-w-md mx-auto sm:px-10 rounded-b-md">
+            <form action="./home.php">
+                <label for="" class="block">Username or Email</label>
+                <input type="Email" class="border w-full h-10 px-3 mb-5 rounded-md" placeholder="Username or Email">
+                <label for="" class="block">Password</label>
+                <input type="password" class="border w-full h-10 px-3 mb-5 rounded-md" placeholder="password">
+                <div class="flex items-start">
+                    <div class="flex items-start">
+                        <div class="flex items-center">
+                            <input id="remember" aria-describedby="remember" type="checkbox" class="bg-gray-50 border border-gray-300 focus:ring-3 focus:ring-blue-300 h-4 w-4 rounded dark:bg-gray-700 dark:border-gray-600 dark:focus:ring-blue-600 dark:ring-offset-gray-800" required="">
+                        </div>
+                        <div class="text-sm ml-3">
+                            <label for="remember" class="font-medium text-gray-900">Remember me</label>
+                        </div>
+                    </div>
+                    <a href="#" class="text-sm text-blue-700 hover:underline ml-auto dark:text-blue-500">Lost
+                        Password?</a>
+                </div>
+                <button class="mt-5 bg-green-500 hover:bg-blue-700 shadow-xl text-white uppercase text-sm font-semibold px-14 py-3 rounded">Login</button>
+            </form>
+        </div>
     </div>
-
-    <div class="bg-white w-full flex items-center p-2 rounded-xl shadow border">
-      <div class="relative flex items-center space-x-4">
-        <img src="./36087036_1954869781470355_898582861416759296_n.jpg" alt="Edson Costa" class="w-16 h-16 rounded-full" />
-      </div>
-      <div class="flex-grow p-3">
-        <div class="font-semibold text-gray-700">Edson Costa</div>
-        <div class="text-sm text-gray-500">@edsonrcoosta</div>
-      </div>
-      <div class="p-2">
-        <span class="block h-4 w-4 bg-red-400 rounded-full bottom-0 right-0"></span>
-      </div>
-    </div>
-  </div>
 </body>
 
 </html>
