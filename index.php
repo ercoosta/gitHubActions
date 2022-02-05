@@ -33,7 +33,7 @@
         <div class="text-sm text-gray-500">@edsonrcoosta</div>
       </div>
       <div class="p-2">
-        <span class="block h-4 w-4 bg-blue-400 rounded-full bottom-0 right-0"></span>
+        <span class="block h-4 w-4 bg-red-400 rounded-full bottom-0 right-0"></span>
       </div>
     </div>
   </div>
